@@ -40,4 +40,4 @@ jobs:
         with:
           inlineScript: |
             cd app
-            az webapp up --name app-service-1990 --html
+            az webapp up --name app-service-90961519 --html
