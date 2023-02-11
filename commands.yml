@@ -1,0 +1,14 @@
+az ad sp create-for-rbac --name "Azure-AppServices-Terraform" --role contributor --scopes /subscriptions/7e3c4da4-d3ea-4b70-8e9c-900c1f13b14f --sdk-auth
+
+{
+  "clientId": "7e5ae073-a81a-46d6-9f64-d15435c58f86",
+  "clientSecret": "dep8Q~lbALMXByp4ZA.ay3MAss79DS4DfyBmvbhm",
+  "subscriptionId": "7e3c4da4-d3ea-4b70-8e9c-900c1f13b14f",
+  "tenantId": "6cb66941-d4d9-4490-9d4b-0f7e5bf63bb2",
+  "activeDirectoryEndpointUrl": "https://login.microsoftonline.com",
+  "resourceManagerEndpointUrl": "https://management.azure.com/",
+  "activeDirectoryGraphResourceId": "https://graph.windows.net/",
+  "sqlManagementEndpointUrl": "https://management.core.windows.net:8443/",
+  "galleryEndpointUrl": "https://gallery.azure.com/",
+  "managementEndpointUrl": "https://management.core.windows.net/"
+}
