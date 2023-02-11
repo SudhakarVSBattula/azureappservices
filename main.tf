@@ -12,7 +12,7 @@ resource "azurerm_service_plan" "terraformappservice_plan" {
 }
 
 resource "azurerm_windows_web_app" "terraformappservice" {
-  name                = "app-service-9096"
+  name                = "appservice9096"
   location            = azurerm_resource_group.terraformappservice_rg.location
   resource_group_name = azurerm_resource_group.terraformappservice_rg.name
   service_plan_id     = azurerm_service_plan.terraformappservice_plan.id
